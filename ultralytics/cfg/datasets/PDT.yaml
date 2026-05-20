@@ -1,0 +1,14 @@
+#114307 of object
+
+
+#images_size 640 640
+path:  .\dataset\PDT # dataset root dir
+train: train/images  # train images (relative to 'path')  3166+1370 images
+val: val/images  # val images (relative to 'path')  355+172 images
+test: test/images  # test images (optional)  390+ 177 images
+
+# Classes
+nc: 1  # number of classes
+names: ['unhealthy']
+
+
